@@ -1,294 +1,142 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>공덕 마사지 리얼 팩트체크 단골 리뷰 아카이브 | 공덕 마사지 이벤트</title>
-  <meta name="description" content="공덕 마사지의 진짜 실전 체험담과 검증된 후기 데이터 공유 리포트! 바가지 눈탱이를 사전에 예방하고 가성비 힐링을 보장받으세요.">
-  <meta name="keywords" content="공덕 마사지 이벤트, 공덕 마사지 후기, 마사지 가격비교, 단골리뷰">
-  <meta name="bpaas-design-system" content="editorial-apple">
-  <meta name="bpaas-design-theme" content="kr-charcoal-gold">
-  <link rel="canonical" href="https://t3b04-gd-massage-evt-2.pages.dev/about.html">
-  <style>
-    
-    :root {
-      --bg-color: #111111;
-      --bg-card: #1e1e1e;
-      --accent: #fbbf24;
-      --text: #e2e8f0;
-      --text-muted: #94a3b8;
-      --font-stack: 'Nanum Myeongjo', serif;
-      --border: rgba(255, 255, 255, 0.08);
-    }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body {
-      background-color: var(--bg-color);
-      color: var(--text);
-      font-family: var(--font-stack);
-      line-height: 1.8;
-      letter-spacing: -0.01em;
-      padding: 0 20px;
-    }
-    .wrapper {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 30px;
-      margin-bottom: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .brand {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-    .brand:hover {
-      color: var(--accent);
-    }
-    nav {
-      display: flex;
-      gap: 24px;
-    }
-    nav a {
-      color: var(--text-muted);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: var(--accent);
-    }
-    main {
-      padding-bottom: 60px;
-    }
-    .badge {
-      display: inline-block;
-      padding: 6px 12px;
-      background: rgba(255,255,255,0.04);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--accent);
-      margin-bottom: 24px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-    h1 {
-      font-size: 2.8rem;
-      font-weight: 900;
-      color: #fff;
-      line-height: 1.25;
-      margin-bottom: 32px;
-      letter-spacing: -0.02em;
-    }
-    .hero-container {
-      position: relative;
-      border-radius: 16px;
-      padding: 48px;
-      background: linear-gradient(135deg, var(--bg-card) 0%, rgba(255,255,255,0.01) 100%);
-      border: 1px solid var(--border);
-      margin-bottom: 48px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      overflow: hidden;
-    }
-    .hero-container::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .desc-block {
-      font-size: 1.15rem;
-      color: var(--text);
-      margin-bottom: 32px;
-      font-weight: 400;
-      text-align: justify;
-    }
-    .desc-block p {
-      margin-bottom: 20px;
-    }
-    .phone-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 12px;
-      padding: 18px 36px;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 1.2rem;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-      transition: transform 0.3s, box-shadow 0.3s;
-    }
-    .phone-badge:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    }
-    .cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 24px;
-      margin-top: 48px;
-    }
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 32px;
-      border-radius: 12px;
-      transition: border-color 0.3s, transform 0.3s;
-    }
-    .card:hover {
-      border-color: var(--accent);
-      transform: translateY(-4px);
-    }
-    .card h3 {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 12px;
-    }
-    .card p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      line-height: 1.6;
-    }
-    .review-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-      font-size: 0.85rem;
-      font-weight: 700;
-    }
-    .review-stars {
-      color: #fbbf24;
-      letter-spacing: 2px;
-    }
-    .review-nick {
-      color: #fff;
-    }
-    .review-date {
-      color: var(--text-muted);
-    }
-    footer {
-      border-top: 1px solid var(--border);
-      padding-top: 40px;
-      margin-top: 80px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 600;
-    }
-    footer a:hover {
-      color: var(--accent);
-    }
-    .blog-link {
-      display: inline-block;
-      margin-top: 24px;
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 700;
-      border-bottom: 1px solid transparent;
-      transition: border-color 0.3s;
-    }
-    .blog-link:hover {
-      border-color: var(--accent);
-    }
-    @media(max-width: 768px) {
-      body { padding: 0 15px; }
-      .wrapper { padding: 40px 0; }
-      h1 { font-size: 2.0rem; }
-      .hero-container { padding: 24px; }
-      .phone-badge { width: 100%; justify-content: center; }
-    }
-  
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="bpaas-design-system" content="brutalist-avantgarde">
+<meta name="bpaas-design-theme" content="kr-acid-yellow">
+<title>공덕 마사지 이벤트 | 정보</title>
+<meta name="description" content="공덕 마사지 이벤트의 모든 정보. 위치, 가격, 시간, 이벤트 조건. 예약은 010-6279-0862. 기회는 단 20명.">
+<meta name="keywords" content="공덕 마사지,공덕 마사지 이벤트,공덕 이벤트,마사지 할인,공덕 안마,공덕 정보">
+<link rel="canonical" href="https://t3b04-gd-massage-evt-2.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="공덕 마사지 이벤트 | 정보">
+<meta property="og:description" content="공덕에서 가장 강력한 마사지 이벤트의 모든 정보. 위치, 가격, 시간. 예약은 지금 당장.">
+<style>
+/* === RESET & BASE === */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body { font-family: 'Courier New', Courier, monospace; background: #111; color: #f0e68c; line-height: 1.6; }
+a { color: #ff4500; text-decoration: underline; text-underline-offset: 3px; }
+a:hover { background: #ff4500; color: #111; transition: 0.2s; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* === TYPOGRAPHY === */
+h1 { font-size: 3.5rem; font-weight: 900; text-transform: uppercase; letter-spacing: -2px; line-height: 1; margin-bottom: 1rem; border-left: 8px solid #ff4500; padding-left: 1rem; }
+h2 { font-size: 2.5rem; font-weight: 700; text-transform: uppercase; letter-spacing: -1px; border-bottom: 3px solid #ff4500; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+h3 { font-size: 1.5rem; font-weight: 600; text-transform: uppercase; margin-bottom: 0.75rem; }
+p { margin-bottom: 1.25rem; }
+.brutal-mono { font-family: 'Courier New', monospace; }
+
+/* === LAYOUT === */
+.full-bleed { width: 100%; }
+.site-wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+.container { display: flex; flex-direction: column; gap: 3rem; padding: 4rem 0; }
+section { background: #1a1a1a; border: 3px solid #f0e68c; padding: 2rem; margin-bottom: 2rem; position: relative; }
+section:nth-child(odd) { border-style: dashed; }
+section::before { content: '◆'; position: absolute; top: -15px; left: 20px; background: #111; padding: 0 10px; font-size: 1.5rem; color: #ff4500; }
+
+/* === NAV === */
+nav { background: #111; border-bottom: 4px solid #ff4500; padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+nav ul { display: flex; justify-content: center; gap: 2rem; list-style: none; align-items: center; }
+nav ul li a { font-size: 1.1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 0.5rem 1rem; border: 2px solid transparent; transition: 0.3s; }
+nav ul li a:hover { border-color: #f0e68c; background: transparent; color: #f0e68c; }
+.hamburger-menu { display: none; cursor: pointer; }
+.tel-link { display: inline-block; background: #ff4500; color: #111 !important; padding: 0.2rem 1rem; font-weight: 900; border: 2px solid #f0e68c; }
+
+/* === FOOTER === */
+footer { text-align: center; padding: 2rem; border-top: 3px solid #ff4500; margin-top: 4rem; font-size: 0.9rem; }
+
+/* === RESPONSIVE 768 === */
+@media (max-width: 768px) {
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.8rem; }
+  nav ul { flex-direction: column; display: none; }
+  nav ul.active { display: flex; }
+  .hamburger-menu { display: block; width: 40px; height: 4px; background: #f0e68c; position: relative; margin: 0 auto; }
+  .hamburger-menu::before, .hamburger-menu::after { content: ''; position: absolute; width: 100%; height: 4px; background: #f0e68c; left: 0; }
+  .hamburger-menu::before { top: -12px; }
+  .hamburger-menu::after { top: 12px; }
+  section { padding: 1.5rem; }
+}
+
+/* === UTILITIES === */
+ul, ol { padding-left: 1.5rem; margin-bottom: 1.25rem; }
+li { margin-bottom: 0.5rem; }
+</style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="index.html" class="brand">공덕.마사지</a>
-      <nav>
-        <a href="index.html">홈</a>
-        <a href="about.html">소개</a>
-        
-      </nav>
-    </header>
-    <main>
-      <div class="badge">REAL UGC FEEDBACK CONSOLE</div>
-      <h1>로컬 팩트체크 리뷰</h1>
-      <div class="hero-container" style="margin-bottom:32px;">
-        <div class="desc-block">
-          <p>마포, 공덕 일대의 힐링 매니아들을 위해 진짜 테라피스트의 솜씨와 샵 가성비를 정밀 대조해 둔 안심 마사지 디렉토리 페이지다 브로. 피로에 찌든 근육들을 안전하게 리셋할 수 있도록 최고의 아로마 오일 테라피 코스 정보를 엄선했다. 가짜 후기에 지갑 털리지 말고, 형의 신뢰 다이얼 📞 010-6279-0862 를 통해 안심 예약을 진행해라. 최고의 마사지사 실장들이 항상 대기 중이다.</p><p>근육 결 다 녹아내린 브로들의 찐 감동 후기:
-- **마포직장인 (33, 금융업)**: '매일 야근해서 허리 박살 나기 직전이었는데 형 추천 마사지 샵에서 스웨디시 받고 부활함. 압 조절 장난 아님.'
-- **도파민중독 (29, 프리랜서)**: '마사지 매니아라 해외서도 많이 받아봤는데 공덕역 010-6279-0862 로 예약해 간 곳이 역대급임. 온몸이 릴렉스 됨.'
-- **바디버퍼 (31, 헬스창)**: '운동 후 근육통 때문에 타이 마사지 풀코스로 끊었는데 바가지 1도 없이 꽉 채워 관리 받아서 대만족했다 브로.'</p><p>샤워실 위생 상태부터 일회용 타올 사용 여부, 그리고 무료 주차장 스펙까지 완벽하게 검토 완료했으니 편안한 몸만 이끌고 오면 된다!</p>
-        </div>
-      </div>
-      
-      <h2 style="font-size:1.8rem; font-weight:900; margin: 40px 0 24px 0; color:#fff;">단골 브로들의 실시간 라이브 한줄평</h2>
-      <div class="cards-grid" style="grid-template-columns: 1fr; gap: 20px;">
-        
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">독고다이마포 (2026-05-15)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>실장한테 전화로 견적 미리 조율하고 갔는데 주말인데도 추가 요금 마찰 전혀 없이 투명하게 깔끔히 계산 끝남. 오디오 에코 세팅 개쩜!</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">눈탱이방어벽 (2026-05-20)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>바이어 접대가 급하게 잡혀 걱정했는데 형이 알려준 핫라인 예약 덕분에 퀄리티 높은 안주 대접하고 완전 성공 버프 받았다 브로.</p>
-      </div>
-    
-      <div class="card">
-        <div class="review-header">
-          <span class="review-nick">가성비킹 (2026-05-24)</span>
-          <span class="review-stars">⭐⭐⭐⭐⭐</span>
-        </div>
-        <p>망설이다 010-6279-0862 로 미리 통화하고 단골 예약 넣고 갔는데 무상 과일 안주 서비스 대박 퍼줘서 친구들도 대만족 인정함!</p>
-      </div>
-    
-      </div>
-      
-      <div style="margin-top:48px; text-align:center;">
-        <a href="tel:010-6279-0862" class="phone-badge">📞 단골 예약 다이얼: 010-6279-0862</a>
-      </div>
-    </main>
-    <footer>
-      <p>&copy; 2026 공덕 마사지 안심 가이드. All Rights Reserved.</p>
-      <p style="margin-top:12px;">
-        <a href="index.html">홈</a> | 
-        <a href="about.html">소개</a> | 
-        <a href="#">개인정보처리방침</a> | 
-        <a href="#">이용약관</a>
-      </p>
-    </footer>
+<nav>
+  <div class="site-wrap">
+    <div class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('active')"></div>
+    <ul>
+      <li><a href="/">홈</a></li>
+      <li><a href="/info">정보</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li><a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a></li>
+    </ul>
   </div>
+</nav>
+
+<main class="site-wrap container">
+  <section>
+    <h1>공덕 마사지 이벤트<br>— 상세 정보</h1>
+    <p class="brutal-mono">/위치: 서울 마포구 공덕동 / 시간: 매일 10:00~22:00 / 20명 한정 주간 /</p>
+    <p>공덕역 5번 출구 도보 3분. 전용 공간에서 벌어지는 이벤트다. 가격? 정가 15만원 → 이벤트가 7만5천원. 반값이다. 존나 싸다. 조건은 간단하다. 예약 먼저 하는 20명. 거짓말 안 한다. 지난주도 20명 찼다. 이번주도 찬다.</p>
+    <p><a href="tel:010-6279-0862">010-6279-0862</a> — 지금 전화해라. 문자는 느리다. 전화가 답이다. 상담도 바로 연결.</p>
+  </section>
+
+  <section>
+    <h2>이벤트 조건 — 깔끔하게</h2>
+    <ul>
+      <li><strong>시간:</strong> 60분 / 90분 옵션 (90분 추천. 더 풀어짐)</li>
+      <li><strong>가격:</strong> 7.5만원 (60분) / 10만원 (90분) — 정상가 50% 할인</li>
+      <li><strong>인원:</strong> 주 20명 선착순 — 초과 시 다음주 대기</li>
+      <li><strong>예약:</strong> 전화 010-6279-0862 (문자보다 전화)</li>
+      <li><strong>취소:</strong> 24시간 전 / 노쇼는 블랙리스트</li>
+    </ul>
+    <p>이 조건 못 지키면 오지 마라. 예약 안 하고 오는 사람 제일 짜증난다.</p>
+  </section>
+
+  <section>
+    <h2>왜 공덕인가 — 지역 시그널</h2>
+    <p>공덕은 마사지 성지다. 마포구 중심, 교통 허브. 5호선 6호선 공항철도 다 모인다. 회사원? 자영업자? 여기 다 모인다. 내 샵은 공덕역에서 걸어서 3분. 골목 안쪽이라 조용하다. 주차? 근처 공영주차장 5분 거리. 아파트 단지 옆이라 밤에도 안전하다. 지역 주민 70%가 단골이다. 이유? 가격 대비 퀄리티. 거짓말 안 한다.</p>
+    <p>공덕에서 마사지 이벤트 찾는다면? 여기밖에 없다. 다른 데는 반값 이벤트 없다. 있으면 알려줘라. 내가 확인하겠다.</p>
+  </section>
+
+  <section>
+    <h2>자주 묻는 찌질한 질문들</h2>
+    <h3>Q: 진짜 50% 할인이에요?</h3>
+    <p>A: 그래. 정가 15만원 → 7.5만원. 내가 왜 거짓말하냐.</p>
+    <h3>Q: 사진이랑 실제랑 달라요?</h3>
+    <p>A: 직접 와서 확인해라. 사진은 보정 안 했다. 오면 안다.</p>
+    <h3>Q: 예약 안 하고 가도 되나요?</h3>
+    <p>A: 안 된다. 선착순 20명. 예약 없으면 돌려보낸다. 시간 낭비 하지 마라.</p>
+    <h3>Q: 남자도 돼요? 여자만?</h3>
+    <p>A: 성별 상관없다. 누구나 가능. 단, 20명 한정.</p>
+    <p>더 궁금하면 전화해라. <a href="tel:010-6279-0862">010-6279-0862</a>.</p>
+  </section>
+
+  <section>
+    <h2>공덕 마사지 — 진짜 후기</h2>
+    <p>"여기 처음 왔는데 반값에 90분 받음. 다른 데 15만원짜리랑 차이 없음. 오히려 더 집중해서 해줌." — 공덕동 직장인 김XX</p>
+    <p>"3주째 왔다. 매주 20명 한정인데 항상 찬다. 진짜다." — 마포구 주민 박XX</p>
+    <p>"가격 보고 반신반의했는데, 퀄리티 ㅆㅅㅌㅊ. 재방문 의사 100%." — 익명</p>
+    <p>리뷰는 직접 써라. 오면 느낌 안다. 말로 설명 안 된다.</p>
+  </section>
+</main>
+
+<footer>
+  <p class="brutal-mono">© 2025 공덕 마사지 이벤트. 예약문의: 010-6279-0862</p>
+  <p>주소: 서울 마포구 공덕동 (자세한 위치는 전화 시 안내)</p>
+</footer>
+
+<script>
+// 햄버거 메뉴 토글
+document.querySelector('.hamburger-menu')?.addEventListener('click', function() {
+  document.querySelector('nav ul').classList.toggle('active');
+});
+// 모든 전화 링크 클릭 이벤트 (선택사항)
+</script>
 </body>
 </html>
